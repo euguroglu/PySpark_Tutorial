@@ -1,0 +1,2 @@
+bin/flume-ng agent --conf conf --conf-file ~/sparkstreamingflume.conf --name a1
+spark-submit --packages org.apache.spark:spark-streaming-flume_2.11:2.3.0 SparkFlume.py
